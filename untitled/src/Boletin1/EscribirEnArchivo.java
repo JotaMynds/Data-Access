@@ -10,6 +10,7 @@ public class EscribirEnArchivo {
         File archivo = new File("C:/Test1/Escribir.txt");
         FileWriter fw = null;
         PrintWriter pw = null;
+
         try{
             fw = new FileWriter(archivo);
             pw = new PrintWriter(fw);
